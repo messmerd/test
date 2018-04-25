@@ -8,4 +8,11 @@ python:
   - "3.6"
   - "3.7-dev"
 
+notifications:
+  email:
+    recipients:
+      - messmerd97@gmail.com 
+    on_success: always  # default: change 
+    on_failure: always # default: always
+
 script: "python simple_tests.py"
